@@ -8,3 +8,17 @@ TODO:
 6. List comprehension for the lengths of each food item -
  create a new list where each item is  the length of the corresponding food item in the original list.
 """
+favorite_foods = ["salad", "steak", "icecream"]
+
+print(favorite_foods[0])
+print(favorite_foods[2])
+
+favorite_foods.append("sushi")
+
+favorite_foods.remove("sushi")
+
+for i in favorite_foods:
+    print(i)
+
+food_lengths = [len(i) for i in favorite_foods]
+print(food_lengths)
