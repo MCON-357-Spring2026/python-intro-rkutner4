@@ -14,7 +14,7 @@ for i in range(2, 21, 2):
 
 x = 0
 for i in range(1, 101):
-    x = x + i
+    x += i
 print(x)
 
 for i in range(1, 13):
